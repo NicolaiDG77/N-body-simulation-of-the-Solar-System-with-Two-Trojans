@@ -45,8 +45,16 @@ Note: Other dependencies appearing in `requirements.txt` (e.g., Jupyter-related 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
+de430.bsp file
+
+Due to size restrictions, the planetary data file de430.bsp could not be published directly on GitHub. The de430.bsp file is available from this Dropbox link. Please place the file in the same folder as the code before running the project.
+
+LINK:
+
+https://www.dropbox.com/scl/fi/ddv3c74oeqhaqiv6nf9ej/de430.bsp?rlkey=za61neqwqenrmoy6d2mvbo6pa&st=xpxb1v5w&dl=0
+
+----------------------------------------------------------------------------------------------------------------------------------
 
 Risk assessment
 
 While dependencies are pinned for full reproducibility in requirements.txt, the longevity of reproducibility might be affected by updates to the Jupyter libraries associated with the project like NumPy, Matplotlib, jplephem, and tkinter. Thus, it is recommended to check the related documentation if there are syntax changes. In terms of visualization method, tkinter was found to be the most stable for displaying the animation, but there are many alternatives which could be selected, for example through the backend feature in Spyder. Note, however, that this may require modification of the code in the animation function. This algorithm uses a manually coded Runge–Kutta integrator function and therefore does not depend on any external integration libraries. This algorithm was created in a Python 3.13.5 environment.
-
