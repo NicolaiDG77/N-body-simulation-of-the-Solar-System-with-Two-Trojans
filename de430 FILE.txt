@@ -1,0 +1,7 @@
+
+
+Due to size restrictions, the planetary data file de430.bsp could not be published directly on GitHub. The de430.bsp file is available from this Dropbox link. Please place the file in the same folder as the code before running the project.
+
+LINK:
+
+https://www.dropbox.com/scl/fi/ddv3c74oeqhaqiv6nf9ej/de430.bsp?rlkey=za61neqwqenrmoy6d2mvbo6pa&st=xpxb1v5w&dl=0
